@@ -7,6 +7,8 @@ IP = "191.52.64.119"
 #PORT = int(input("Porta: "))
 PORT = 5001
 
+#comentario de mudança
+
 server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
 
