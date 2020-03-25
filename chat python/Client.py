@@ -11,6 +11,8 @@ IP = "191.52.64.119"
 #PORT = int(input("Porta: "))
 PORT = 5000
 
+#mudança
+
 my_username = input("Username: ")
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 client_socket.connect((IP,PORT))
