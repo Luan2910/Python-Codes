@@ -5,7 +5,7 @@ HEADER_LENGTH  = 10
 #IP = input("IP: ")
 IP = "191.52.64.119"
 #PORT = int(input("Porta: "))
-PORT = 5000
+PORT = 5001
 
 server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)

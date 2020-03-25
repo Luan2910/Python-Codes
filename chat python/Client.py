@@ -9,7 +9,7 @@ HEADER_LENGTH  = 10
 #IP = input("IP do servidor: ")
 IP = "191.52.64.119"
 #PORT = int(input("Porta: "))
-PORT = 5000
+PORT = 5001
 
 my_username = input("Username: ")
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
